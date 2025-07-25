@@ -1,0 +1,31 @@
+
+$ git push origin +main:main
+  
+
+
+
+
+
+
+hitanshu@zombie:~/Documents/expenses$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 2 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+nothing to commit, working tree clean
+
+hitanshu@zombie:~/Documents/expenses$ git push origin +main:main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.88 MiB | 13.66 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To github.com:Rudeaxe/expenses.git
+ + d6e00ed...33ca01e main -> main (forced update)
+
+
+
+
